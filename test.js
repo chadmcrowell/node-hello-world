@@ -7,9 +7,3 @@ describe('Simple Math Test', () => {
         assert.equal(3 * 3, 9);
     });
 });
-
-# open package.json and add test under run
-"scripts": {
-    "start": "node index",
-    "test": "mocha"
-  },
