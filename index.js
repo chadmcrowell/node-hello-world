@@ -1,6 +1,6 @@
 const http = require('http');
 const fs = require('fs');
-// comment
+
 const server = http.createServer((req, res) => {
   let filePath = path.join(
     __dirname,
