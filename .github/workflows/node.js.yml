@@ -21,7 +21,7 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
       - run: npm install
-      - run: npm run build
+      - run: npm run start
       - name: Azure WebApp
         uses: Azure/webapps-deploy@v2
         with:
