@@ -30,4 +30,4 @@ jobs:
     - name: My third step
       uses: actions/checkout@v1
     - name: My fourth step
-      uses: actions/setup-node@v1.2
+      uses: actions/setup-node@v1
