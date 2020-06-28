@@ -29,3 +29,5 @@ jobs:
       run: echo "The previous step has finished successfully"
     - name: My third step
       uses: actions/checkout@v1
+    - name: My fourth step
+      uses: actions/setup-node@v1.2
