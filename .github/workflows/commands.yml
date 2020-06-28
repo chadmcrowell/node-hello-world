@@ -7,8 +7,6 @@ name: run commands
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -19,4 +17,4 @@ jobs:
     steps:
     - name: My first step
       if: ${{ github.event_name == 'pull_request' && github.event.action == 'assigned' }}
-      run: echo This event is a pull request that had been assigned
+      run: echo "This event is a pull request that had been assigned"
