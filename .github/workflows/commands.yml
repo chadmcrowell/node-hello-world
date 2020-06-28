@@ -27,3 +27,5 @@ jobs:
     - name: My second step
       if: success()
       run: echo "The previous step has finished successfully"
+    - name: My third step
+      uses: actions/checkout@v1
